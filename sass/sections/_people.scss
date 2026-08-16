@@ -1,0 +1,33 @@
+
+.people{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+p{
+    color: #666666;
+    width: 240px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    max-width: 194px;
+    height: auto;
+}
+
+h3{
+    color: #333333;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+}
+
+.text{
+    color: #FF4E50;
+    border: 1px solid #FF4E50;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
