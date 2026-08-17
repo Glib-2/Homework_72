@@ -35,3 +35,12 @@ h3 {
   font-weight: 700;
   font-family: "Montserrat", sans-serif;
 }
+
+.partners-button {
+  color: #FF4E50;
+  border: 1px solid #FF4E50;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+}
