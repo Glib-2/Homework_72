@@ -1,5 +1,92 @@
+.text-hero_1 {
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #FFFFFF;
+}
 
-.hero_image{
-    width: 100%;
+.text-hero_2 {
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.hero {
+    height: 850px;
+    color: #FFFFFF;
+    background-image: url("../Images/hero.webp");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+h1{
+    font-weight: 700;
+    font-family: "Montserrat", sans-serif;
+    font-size: 52px;
+    color: #FFFFFF;
+    max-width: 508px;
     height: auto;
 }
+
+.header_text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 675px;
+    margin-bottom: 50px;
+}
+
+.log-in{
+    background: none;
+    border: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+}
+
+.sign-up{
+    background: none;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 20px;
+    width: 93px;
+    height: 39px;
+}
+
+.buttons-hero {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.second_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.second_text h1 {
+    margin: 0;
+}
+
+.text-hero_2 {
+    margin: 20px 0;
+}
+
+.hero-button{
+    background-color: #FF4E50;
+    color: #FFFFFF;
+    border-radius: 20px;
+    border: 0px;
+    width: 250px;
+    height: 45px;
+    cursor: pointer;
+}
+
